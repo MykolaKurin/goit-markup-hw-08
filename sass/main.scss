@@ -1,25 +1,26 @@
 // Utils
-@import "./utils/_variables.scss";
+@import './utils/_variables.scss';
 
 // Base
-@import "./base/_base.scss";
+@import './base/_base.scss';
+@import './base/container';
 
 // Components
-@import "./components/_menu.scss";
-@import "./components/_contacts.scss";
-@import "./components/_portfolio.scss";
-@import "./components/_hero_section.scss";
-@import "./components/_features.scss";
-@import "./components/_what_we_do.scss";
-@import "./components/_our_team.scss";
-@import "./components/_socnetwork.scss";
-@import "./components/_main_clients.scss";
-@import "./components/_projects.scss";
-@import "./components/_gallery.scss";
-@import "./components/_overlay.scss";
-@import "./components/_footer.scss";
-@import "./components/_backdrop_modal.scss";
-@import "./components/footer_form";
+@import './components/_menu.scss';
+@import './components/_contacts.scss';
+@import './components/_portfolio.scss';
+@import './components/_hero_section.scss';
+@import './components/_features.scss';
+@import './components/_what_we_do.scss';
+@import './components/_our_team.scss';
+@import './components/_socnetwork.scss';
+@import './components/_main_clients.scss';
+@import './components/_projects.scss';
+@import './components/_gallery.scss';
+@import './components/_overlay.scss';
+@import './components/_footer.scss';
+@import './components/_backdrop_modal.scss';
+@import './components/footer_form';
 
 // Layout
-@import "./layout/mobile-menu";
+@import './layout/mobile-menu';
