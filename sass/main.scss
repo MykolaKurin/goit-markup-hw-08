@@ -1,26 +1,34 @@
 // Utils
-@import './utils/_variables.scss';
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/mixins';
 
 // Base
-@import './base/_base.scss';
+
+@import './base/base';
 @import './base/container';
 
 // Components
-@import './components/_menu.scss';
-@import './components/_contacts.scss';
-@import './components/_portfolio.scss';
-@import './components/_hero_section.scss';
-@import './components/_features.scss';
-@import './components/_what_we_do.scss';
-@import './components/_our_team.scss';
-@import './components/_socnetwork.scss';
-@import './components/_main_clients.scss';
-@import './components/_projects.scss';
-@import './components/_gallery.scss';
-@import './components/_overlay.scss';
-@import './components/_footer.scss';
-@import './components/_backdrop_modal.scss';
-@import './components/footer_form';
+
+@import './components/logo';
+@import './components/modal-btn';
+@import './components/social-links';
+@import './components/backdrop';
 
 // Layout
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/our-job';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/footer-social-links';
+@import './layout/footer-form';
+@import './layout/portfolio';
+@import './layout/modal-window';
+@import './layout/modal-form';
+@import './layout/modal-checkbox';
 @import './layout/mobile-menu';
