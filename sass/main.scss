@@ -1,5 +1,10 @@
+// Utils
 @import "./utils/_variables.scss";
+
+// Base
 @import "./base/_base.scss";
+
+// Components
 @import "./components/_menu.scss";
 @import "./components/_contacts.scss";
 @import "./components/_portfolio.scss";
@@ -15,3 +20,6 @@
 @import "./components/_footer.scss";
 @import "./components/_backdrop_modal.scss";
 @import "./components/footer_form";
+
+// Layout
+@import "./layout/mobile-menu";
