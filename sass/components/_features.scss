@@ -1,0 +1,37 @@
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__section {
+    display: flex;
+    flex-direction: row;
+  }
+  &__list {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+  }
+
+  &__icon {
+    width: 270px;
+    height: 120px;
+    background: var(--button-background-portfolio);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+}
