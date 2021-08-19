@@ -7,14 +7,14 @@
   height: 252px;
 
   &__logo {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-
     color: var(--brand-color);
     margin-bottom: 20px;
   }
+
   &__container {
     display: flex;
     align-items: baseline;
@@ -27,9 +27,11 @@
   .link:not(:last-child) {
     margin-bottom: 9px;
   }
+
   .address-list {
     padding-left: 0px;
   }
+
   .address {
     font-style: normal;
     font-weight: normal;
